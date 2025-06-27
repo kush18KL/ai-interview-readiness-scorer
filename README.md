@@ -1,24 +1,48 @@
-# 🤖 AI Interview Readiness Scorer
+# 🧠 AI Interview Readiness Scorer
 
-A smart web app that evaluates how well your resume aligns with a job description using AI. It also generates technical and behavioral interview questions to help you prepare — plus, you can download the feedback as a PDF!
-
-Built using **Streamlit**, **Hugging Face Transformers**, and **Python NLP tools**.
-
----
-
-## 🚀 Features
-
-- 📊 **Resume–JD Match Score** (keyword-based overlap)
-- 🤖 **AI-Generated Interview Questions** using Hugging Face LLMs
-- ✍️ **Behavioral + Technical Questions**
-- 📥 **Download Feedback as PDF**
-- 🧠 Works with `.pdf`, `.docx`, or `.txt` resumes and job descriptions
+This is a smart AI-powered tool that analyzes your resume and job description to:
+- ✅ Score your resume’s match with the job
+- 🧠 Highlight missing keywords
+- 🎯 Generate potential interview questions
+- 📋 Suggest resume improvements
 
 ---
 
-## 🛠️ Installation
+## 📂 Features
+- 🔍 Resume vs JD Match Scoring
+- 🤖 AI-generated Interview Questions (OpenAI/HuggingFace)
+- 📊 Keyword analysis with feedback
+- 📝 Built-in resume text extraction
+- 🧪 Simple CLI-based interface
 
-### 1. Clone the repository
+---
+
+## 🛠️ Tech Stack
+- Python 3.10+
+- OpenAI API (or Hugging Face Transformers)
+- Pandas, Scikit-learn
+- Flask (for future web integration)
+- PDF/Text parsing
+
+---
+
+## 📦 How to Run
+
 ```bash
+# Clone repo
 git clone https://github.com/kush18KL/ai-interview-readiness-scorer.git
 cd ai-interview-readiness-scorer
+
+# Create a virtual environment
+python -m venv env
+env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Add your keys (optional)
+echo "your-openai-key" > openai_key.txt
+echo "your-huggingface-token" > huggingface_key.txt
+
+# Run the scorer
+python app.py
