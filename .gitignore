@@ -1,0 +1,9 @@
+# Ignore secrets
+openai_key.txt
+huggingface_key.txt
+
+# Ignore environment and build artifacts
+env/
+.dist/
+__pycache__/
+*.pyc

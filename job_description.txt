@@ -1,0 +1,24 @@
+
+Desired Skills & Qualifications:
+
+Currently pursuing or recently completed a degree in Computer Science, Artificial
+
+Intelligence, Data Science, or a related field.
+
+Strong understanding of machine learning algorithms and principles.
+Proficiency in programming languages such as Python, R, or Java.
+Hands-on experience with machine learning libraries (e.g., TensorFlow, PyTorch,
+
+Scikit-learn).
+
+Familiarity with data preprocessing, data cleaning, and data visualization.
+Good knowledge of statistical methods and model evaluation techniques.
+Strong analytical and problem-solving skills.
+Ability to work collaboratively in a team-oriented environment.
+Excellent communication skills to convey technical concepts effectively.
+
+Good to Have:
+
+Prior internship experience or personal projects related to AI/ML.
+Knowledge of cloud platforms like AWS, Google Cloud, or Azure.
+Experience with Natural Language Processing (NLP) or Computer Vision (CV)
